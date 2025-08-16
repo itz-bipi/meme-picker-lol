@@ -32,6 +32,7 @@ function renderCat(){
         class="cat-img" 
         src="./images/${catObject.image}"
         alt="${catObject.alt}"
+         loading="lazy"
         >
         `
     memeModal.style.display = 'flex'
